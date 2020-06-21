@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="generic_iot.css" />
+    <title>Product Registration</title>
+</head>
+<body>
+<header>
+    <a href="index.html">
+        <img id="logo" src="logo_generic_iot_transparent.png" alt="logo" />
+    </a>
+
+    <span id="hamburger-button">&plus;</span>
+    <div id="slide-menu">
+        <nav>
+            <ul>
+                <li class="nav-bar-tab"><a class="nav-bar-tab-link" href="product_registration.html">Product Registration</a></li>
+    <!--            <li class="nav-bar-tab"><a class="nav-bar-tab-link" href="end_user_info.html">End User Info</a></li>-->
+                <li class="nav-bar-tab"><a class="nav-bar-tab-link" href="update_info.html">Update Info</a></li>
+                <li class="nav-bar-tab"><a class="nav-bar-tab-link" href="index.html">Sign-Out</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+<div id="header-background"></div>
+
+<main>
+    <section id="main-flex">
+        <form id="form" action="http://localhost:8081/GenericIOTOurDatabase/products">
+            <h1>Product Registration</h1>
+            <section>
+                <div class="form-label-input-flex">
+                    <input type="text" id="product-name" name="product-name" placeholder="Product Name" required>
+                    <label for="product-name">Product Name</label>
+                </div>
+            </section>
+            <input id="submit-button" type="submit" value="Register" formmethod="post">
+        </form>
+    </section>
+</main>
+
+
+<footer>
+    <section>
+        <div>
+            <h4><u>Contact Us</u></h4>
+            <p>Tel: +972 3-555-5555</p>
+            <p>Email: <a href="mailto:contact@genericiot.com">contact@genericiot.com</a></p>
+        </div>
+        <div>
+            <h4><u>Sitemap</u></h4>
+            <p><a href="index.html">Sign-In</a></p>
+            <p><a href="company_registration.html">Company Registration</a></p>
+            <p><a href="product_registration.html">Product Registration</a></p>
+        </div>
+    </section>
+    <p>&copy; 2020 Generic IOT</p>
+</footer>
+<script src="product_registration.js"></script>
+</body>
+</html>

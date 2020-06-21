@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--    <link rel="stylesheet" href="index.css" />-->
+    <link rel="stylesheet" href="index-grid.css" />
+    <title>All Tasks</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">All tasks</a></li>
+            <li><a href="to_do.html">ToDo tasks</a></li>
+            <li onclick="createDoneView()">Done tasks</li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Hello, you have <span id="num-items-to-do">0</span> things to do</h1>
+
+    <section id="main-wrapper">
+        <section>
+            <textarea id="new-task" placeholder="Enter new task here" autofocus></textarea><br>
+            <input id="add-new-task-button" type="button" value="Add New Item">
+            <input id="clear-done-tasks-button" type="button" value="Clear Done Items">
+            <input id="select-all-tasks-button" type="button" value="Select All">
+        </section>
+
+        <section id="all-tasks">
+            <div class="task-wrapper">
+                <div>
+                    Status
+                </div>
+                <div>
+                    Task
+                </div>
+            </div>
+        </section>
+
+
+    </section>
+</main>
+<script src="index.js"></script>
+</body>
+</html>

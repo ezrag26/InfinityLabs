@@ -1,0 +1,7 @@
+package il.co.ilrd.vendingmachine;
+
+public class InsufficientFundsException extends Exception {
+	public InsufficientFundsException(String message) {
+		super(message);
+	}
+}

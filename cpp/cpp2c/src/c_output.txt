@@ -1,0 +1,102 @@
+16
+16
+16
+16
+PublicTransport::Ctor()1
+Minibus::Ctor()
+Minibus::wash(3) ID:1
+PublicTransport::Ctor()2
+Minibus::Ctor()
+print_info(int i)
+Minibus::display() ID:2 num seats:20
+PublicTransport::CCtor() 3
+Minibus::Dtor()
+PublicTransport::Dtor()2
+PublicTransport::display(): 3
+PublicTransport::Dtor()3
+PublicTransport::Ctor()2
+Minibus::Ctor()
+PublicTransport::Ctor()3
+Taxi::Ctor()
+PublicTransport::Ctor()4
+Minibus::Ctor()
+Minibus::display() ID:2 num seats:20
+Taxi::display() ID:3
+Minibus::display() ID:4 num seats:20
+Minibus::Dtor()
+PublicTransport::Dtor()2
+Taxi::Dtor()
+PublicTransport::Dtor()3
+Minibus::Dtor()
+PublicTransport::Dtor()4
+PublicTransport::Ctor()2
+Minibus::Ctor()
+PublicTransport::CCtor() 3
+PublicTransport::Ctor()4
+Taxi::Ctor()
+PublicTransport::CCtor() 5
+PublicTransport::Ctor()6
+Taxi::Dtor()
+PublicTransport::Dtor()4
+Minibus::Dtor()
+PublicTransport::Dtor()2
+PublicTransport::display(): 3
+PublicTransport::display(): 5
+PublicTransport::display(): 6
+PublicTransport::display(): 3
+s_count: 4
+PublicTransport::Ctor()5
+Minibus::Ctor()
+s_count: 5
+PublicTransport::Ctor()6
+Minibus::Ctor()
+PublicTransport::Ctor()7
+Minibus::Ctor()
+PublicTransport::Ctor()8
+Minibus::Ctor()
+PublicTransport::Ctor()9
+Minibus::Ctor()
+PublicTransport::Ctor()10
+Taxi::Ctor()
+PublicTransport::Ctor()11
+Taxi::Ctor()
+PublicTransport::Ctor()12
+Taxi::Ctor()
+PublicTransport::Ctor()13
+Taxi::Ctor()
+Taxi::Dtor()
+PublicTransport::Dtor()13
+Taxi::Dtor()
+PublicTransport::Dtor()12
+Taxi::Dtor()
+PublicTransport::Dtor()11
+Taxi::Dtor()
+PublicTransport::Dtor()10
+2
+2
+PublicTransport::Ctor()10
+Taxi::Ctor()
+SpecialTaxi::Ctor()
+PublicTransport::CCtor() 11
+Taxi::CCtor()
+Taxi::display() ID:11
+Taxi::Dtor()
+PublicTransport::Dtor()11
+SpecialTaxi::Dtor()
+Taxi::Dtor()
+PublicTransport::Dtor()10
+Minibus::Dtor()
+PublicTransport::Dtor()9
+Minibus::Dtor()
+PublicTransport::Dtor()8
+Minibus::Dtor()
+PublicTransport::Dtor()7
+Minibus::Dtor()
+PublicTransport::Dtor()6
+Minibus::Dtor()
+PublicTransport::Dtor()5
+PublicTransport::Dtor()6
+PublicTransport::Dtor()5
+PublicTransport::Dtor()3
+Minibus::Dtor()
+PublicTransport::Dtor()1

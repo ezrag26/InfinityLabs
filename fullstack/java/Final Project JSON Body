@@ -1,0 +1,31 @@
+"CR": {
+	"type": ,
+	"company": ,
+	"password": ,
+	"data": {
+
+	}
+}
+
+"PR": {
+	"type": ,
+	"company": ,
+	"password": ,
+	"data": {
+		"product": ,
+		"sn":
+	}
+}
+
+"IOT Update": {
+	"type": ,
+	"company": ,
+	"password": ,
+	"data": {
+		"timestamp": ,
+		"sn": ,
+		"object": {
+
+		}
+	}
+}

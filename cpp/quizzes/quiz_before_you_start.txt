@@ -1,0 +1,31 @@
+C++ Prerequisites Quiz
+
+1. int x = 10;
+What are the types, values and side-effects of the following expressions:
+
+x -> literal, 10, no side effect
+‘x’ -> literal, 'x', no side effect
+x+1 -> addition, 11, no side effect
+x++ -> postfix, 10, increments x by 1 and assign it to x after x's original value is used
+++x -> prefix, 11, increments x by 1 and assign it to x, and then use x
+
+2. int *foo(void);
+What are the types of the following expressions? Which of them are lvalues?
+
+*foo() -> dereference function return, rvalue
+&foo() -> reference of function return, rvalue
+foo() -> function call, lvalue.
+foo -> function reference, rvalue
+&foo -> function reference, rvalue
+
+3. What is a weak symbol?
+In C, a weak symbol is a global variable not initialized, just defined, and if there is a variable with the same name within the same compilation unit that has strong symbol, the weak symbol will be overriden and take the strong symbol's value
+In C++, there are no weak symbols by default. To make a symbol weak, it should be declared as _attribute_((weak))
+
+4. What are calling conventions? Describe the steps of a function call in C on an x86 platform.
+Good luck!
+    1. The caller saves the contents of certain registers
+    2. Arguments are passed on the stack from right to left, and return values are passed in eax register.
+    3. calling function cleans the stack
+    4. return value is retrieved from eax register
+    5. caller restores the content previously saved from the registers before the call

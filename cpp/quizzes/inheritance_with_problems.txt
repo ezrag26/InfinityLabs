@@ -1,0 +1,19 @@
+1. Output :
+    Base Ctor
+    Base Ctor
+    Derived Ctor
+    Base cctor
+    Base Print
+    Base Print
+    Derived Print
+    Derived Dtor
+
+2. 
+    * Print(Base p) receives by value, should receive by reference
+    * Dtor should be virtual
+
+3.
+    * change to Print(const Base& p)
+    * change Dtor to virtual
+
+4. I don't blieve so...

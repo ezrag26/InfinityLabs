@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background: blue;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    /*display: inline;*/
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav li a {
+    font-size: 2rem;
+    padding: 8px;
+}
+
+nav ul li:not(:nth-last-child(1)) {
+    border-right: solid 1px red;
+}
+
+nav li a:hover {
+    background: rgba(255, 255, 255, .5);
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+}

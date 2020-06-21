@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    background: rgba(0, 0, 0, .025);
+}
+
+header {
+    display: grid;
+    background: #aa0000;
+    /*grid-template-columns: 10% 90%;*/
+    /*height: 100px;*/
+}
+
+header nav {
+    /*display: grid;*/
+    /*grid-template-columns: 100%;*/
+    text-align: center;
+}
+
+header nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    font-size: 1.6rem;
+}
+
+header nav ul li:hover {
+    background: rgba(255, 255, 255, .5);
+}
+
+header nav ul li a {
+    display: inline-block;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    /*background: rgba(255, 255, 255, .5);*/
+}
+
+main {
+    margin: 50px auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-row-gap: 50px;
+    width: 85%;
+}
+
+#main-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+}
+
+#all-tasks {
+    display: grid;
+    grid-auto-rows: fit-content(1em);
+    border: solid 2px black;
+}
+
+#main-wrapper-done {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 3rem;
+}
+
+done-tasks {
+    display: grid;
+    grid-auto-rows: fit-content(1em);
+    border: solid 2px black;
+}
+
+.task-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.task-wrapper > div {
+    background: rgba(0, 0, 0, .1);
+    border: solid 1px black;
+    text-align: center;
+}
+
+.task-wrapper:nth-child(2n) {
+    background: rgba(0, 0, 0, .2);
+}
+
+.task-wrapper div:nth-child(2n) {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.task-wrapper:first-child > div {
+    text-align: center;
+    padding-left: 0;
+}
+
+#new-task {
+    margin-bottom: 5px;
+    /*border: solid 5px green;*/
+    width: 100%;
+    resize: vertical;
+    font-size: 2rem;
+}
+
+input[type="button"] {
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="button"]:active {
+    opacity: .6;
+}
+
+#add-new-task-button {
+    background: green;
+}
+
+#clear-done-tasks-button {
+    background: red;
+}
+
+#select-all-tasks-button {
+    background: black;
+}
+

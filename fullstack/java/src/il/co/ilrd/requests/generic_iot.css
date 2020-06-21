@@ -1,0 +1,262 @@
+@media screen {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background: rgba(115, 134, 144, .2);
+    }
+
+    header,
+    #main-flex,
+    #full-process {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form-label-input-flex,
+    footer,
+    footer section {
+        display: flex;
+    }
+
+    header {
+        align-items: center;
+        box-shadow: 0 0 10px 2px;
+        position: fixed;
+        top: 0;
+    }
+
+    header, footer {
+        background: rgba(142, 7, 0, 1);
+        width: 100%;
+    }
+
+    a {
+        color: blue;
+        text-decoration: none;
+    }
+
+    #slide-menu {
+        display: none;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #hamburger-button {
+        order: 2; /* swap button with nav tabs */
+        font-size: 3rem;
+        margin-right: 20px;
+        transition-duration: .5s;
+    }
+
+    #hamburger-button:hover {
+        cursor: pointer;
+    }
+
+    /*#hamburger-button:active {*/
+    /*    transform: rotateZ(45deg);*/
+    /*}*/
+
+    #hamburger-button:active + #slide-menu {
+        display: revert;
+    }
+
+    .nav-bar-tab {
+        padding: 8px;
+    }
+
+    .nav-bar-tab:not(:last-child) {
+        border-bottom: solid 1px black;
+    }
+
+    .nav-bar-tab-link {
+        color: white;
+        padding: inherit;
+    }
+
+    .nav-bar-tab-link:hover {
+        color: rgba(255, 255, 255, .6);
+        /*border-top: solid 3px black;*/
+        /*border-bottom: solid 3px black;*/
+    }
+
+    .nav-bar-tab-link:active {
+        color: inherit;
+    }
+
+    #logo {
+        width: 100px;
+        padding: 10px;
+    }
+
+    main {
+        margin-top: 70px;
+        min-height: 100vh;
+    }
+
+    #main-flex {
+        flex-direction: column;
+        align-content: space-evenly;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 80%;
+    }
+
+    .process-step,
+    #form {
+        background: white;
+        border-radius: 10px;
+    }
+
+    .process-step {
+        /*box-shadow: -5px 5px 5px;*/
+        padding: 20px;
+        width: 30%;
+        min-width: 30%;
+    }
+
+    #form {
+        box-shadow: 8px 8px 15px 5px grey;
+        padding: 10px 50px 20px;
+        margin: 30px 10px;
+    }
+
+    #form h1 {
+        text-align: center;
+    }
+
+    .form-label-input-flex {
+        flex-direction: column-reverse;
+        height: 55px;
+    }
+
+    .form-label-input-flex input {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 10px;
+        border: none;
+        border-bottom: solid 1px black;
+        font-size: 20px;
+        outline: none;
+    }
+
+/* works in Safari only */
+/*    .form-label-input-flex input:focus::placeholder {*/
+/*        font-size: 12px;*/
+/*        font-family: Arial, serif;*/
+/*        color: rgba(0, 0, 0, .4);*/
+/*        transform: translate(-1px, -18px);*/
+/*        transition-duration: .5s;*/
+/*    }*/
+
+/*    .form-label-input-flex input:not(:placeholder-shown) ~ label {*/
+/*        opacity: 1;*/
+/*        !*transition-duration: 1s;*!*/
+/*    }*/
+/*end*/
+
+/* worse version */
+    .form-label-input-flex input:focus:placeholder-shown ~ label {
+        opacity: 0;
+        transition-duration: .5s;
+    }
+
+    .form-label-input-flex input:not(:placeholder-shown) ~ label {
+        opacity: 1;
+        transition-duration: 1s;
+    }
+/* end */
+
+    .form-label-input-flex label {
+        opacity: 0;
+        margin-bottom: 2px;
+        font-size: 12px;
+        font-family: Arial, serif;
+        color: rgba(0, 0, 0, .4);
+    }
+
+    #submit-button {
+        background: rgb(0, 128, 0);
+        border: 0;
+        border-radius: 3px;
+        margin-top: 10px;
+        padding: 10px 0;
+        width: 100%;
+        font-size: 1em;
+        color: white;
+        cursor: pointer;
+    }
+
+    #submit-button:active {
+        opacity: .7;
+    }
+
+    #forgot-password {
+        margin-top: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 50px 0 0;
+    }
+
+    footer section {
+        justify-content: space-evenly;
+    }
+
+    footer p {
+        margin: auto auto 10px;
+    }
+
+    footer a {
+        color: black;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #slide-menu {
+        display: revert;
+    }
+    
+    #hamburger-button {
+        display: none;
+    }
+
+    .nav-bar-tab {
+        display: inline;
+        padding: 10px;
+        font-size: 1.6rem;
+    }
+
+    .nav-bar-tab:not(:last-child) {
+        border-bottom: none;
+        border-right: solid 1px black;
+    }
+
+    .nav-bar-tab:not(:first-child) {
+        border-bottom: none;
+        border-left: solid 1px black;
+    }
+
+    #main-flex {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 90%;
+    }
+
+    #full-process {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .process-step {
+        width: 100%;
+    }
+}

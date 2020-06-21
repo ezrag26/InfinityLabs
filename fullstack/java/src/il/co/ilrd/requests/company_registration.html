@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="generic_iot.css" />
+    <title>Company Registration</title>
+</head>
+<body>
+<header>
+    <a href="index.html">
+        <img id="logo" src="logo_generic_iot_transparent.png" alt="logo" />
+    </a>
+</header>
+
+<main id="main">
+
+    <section id="main-flex">
+        <section id="full-process">
+            <div class="process-step">
+                <h1><em>Step 1</em></h1>
+                <p>Register Your Company</p>
+            </div>
+            <div class="process-step">
+                <h1><em>Step 2</em></h1>
+                <p>Register Your Products</p>
+            </div>
+            <div class="process-step">
+                <h1><em>Step 3</em></h1>
+                <p>Get Results</p>
+            </div>
+        </section>
+
+        <form id="form" action="http://localhost:8081/GenericIOTOurDatabase/companies">
+            <h1>Company Registration</h1>
+            <section>
+                <div class="form-label-input-flex">
+                    <input type="text" id="company-name" name="company-name" placeholder="Company Name*" required>
+                    <label for="company-name">Company Name*</label>
+                </div>
+                <div class="form-label-input-flex">
+                    <input type="text" id="contact-name" name="contact-name" placeholder="Contact Name*" required>
+                    <label for="contact-name">Contact Name*</label>
+                </div>
+                <div class="form-label-input-flex">
+                    <input type="tel" id="contact-phone" name="contact-phone" placeholder="Contact Phone">
+                    <label for="contact-phone">Contact Phone</label>
+                </div>
+                <div class="form-label-input-flex">
+                    <input type="email" id="contact-email" name="contact-email" placeholder="Contact Email*" required>
+                    <label for="contact-email">Contact Email*</label>
+                </div>
+                <div class="form-label-input-flex">
+                    <input type="text" id="registering-name" name="registering-name" placeholder="Registering Name">
+                    <label for="registering-name">Registering Name</label>
+                </div>
+                <div class="form-label-input-flex">
+                    <input type="password" id="password" name="password" placeholder="Password*" required>
+                    <label for="password">Password*</label>
+                </div>
+                <div class="form-label-input-flex">
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password*" required>
+                    <label for="confirm-password">Confirm Password*</label>
+                </div>
+            </section>
+            <input id="submit-button" type="submit" value="Register" formmethod="post">
+            <p>Already registered? <a href="index.html">Log in</a></p>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <section>
+        <div>
+            <h4>Contact Us</h4>
+            <p>Tel: +972 3-555-5555</p>
+            <p>Email: <a href="mailto:contact@genericiot.com">contact@genericiot.com</a></p>
+        </div>
+        <div>
+            <h4>Sitemap</h4>
+            <p><a href="index.html">Sign-In</a></p>
+            <p><a href="company_registration.html">Company Registration</a></p>
+            <p><a href="product_registration.html">Product Registration</a></p>
+        </div>
+    </section>
+    <p>&copy; 2020 Generic IOT</p>
+</footer>
+</body>
+</html>

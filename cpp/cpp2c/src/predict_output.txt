@@ -1,0 +1,85 @@
+PublicTransport::Ctor()1
+Minibus::Ctor()
+PublicTransport::CCtor()2
+Minibus::CCtor()
+Minibus::wash(3) ID:2
+Minibus::Dtor()
+PublicTransport::Dtor()2
+PublicTransport::Ctor()2
+Minibus::Ctor()
+print_info(int i)
+Minibus::display() ID:2 num seats:20
+Minibus::Dtor()
+PublicTransport::Dtor()2
+PublicTransport::CCtor()2
+Minibus::CCtor()
+Minibus::display() ID:2 num seats:20
+PublicTransport::Ctor()3
+Minibus::Ctor()
+PublicTransport::Ctor()4
+Taxi::Ctor()
+PublicTransport::Ctor()5
+Minibus::Ctor()
+Minibus::display() ID:3 num seats:20
+Taxi::display() ID:4
+Minibus::display() ID:5 num seats:20
+Minibus::Dtor()
+PublicTransport::Dtor()3
+Taxi::Dtor()
+PublicTransport::Dtor()4
+Minibus::Dtor()
+PublicTransport::Dtor()5
+PublicTransport::Ctor()3
+Minibus::Ctor()
+PublicTransport::Ctor()4
+Taxi::Ctor()
+PublicTransport::Ctor()5
+Minibus::display() ID:3 num seats:20
+Taxi::display() ID:4
+PublicTransport::display(): 5
+PublicTransport::CCtor()6
+Minibus::CCtor()
+Minibus::wash(3) ID:6
+Minibus::Dtor()
+PublicTransport::Dtor()6
+s_count: 5
+PublicTransport::Ctor()6
+Taxi::Ctor()
+PublicTransport::Ctor()7
+Taxi::Ctor()
+PublicTransport::Ctor()8
+Taxi::Ctor()
+PublicTransport::Ctor()9
+Taxi::Ctor()
+Taxi::Dtor()
+PublicTransport::Dtor()9
+Taxi::Dtor()
+PublicTransport::Dtor()8
+Taxi::Dtor()
+PublicTransport::Dtor()7
+Taxi::Dtor()
+PublicTransport::Dtor()6
+2
+2
+PublicTransport::Ctor()6
+Taxi::Ctor()
+SpecialTaxi::Ctor()
+PublicTransport::CCtor() 7
+Taxi::CCtor()
+SpecialTaxi::CCtor()
+SpecialTaxi::display() ID:7
+SpecialTaxi::Dtor()
+Taxi::Dtor()
+PublicTransport::Dtor()7
+SpecialTaxi::Dtor()
+Taxi::Dtor()
+PublicTransport::Dtor()6
+PublicTransport::Dtor(): 5
+Taxi::Dtor()
+PublicTransport::Dtor()4
+Minibus::Dtor()
+PublicTransport::Dtor()3
+Minibus::Dtor()
+PublicTransport::Dtor()2
+Minibus::Dtor()
+PublicTransport::Dtor()1

@@ -1,0 +1,15 @@
+A king has 1000 bottles of wine, one is poisoned. He also has 10 prisoners sentenced to death, that he may use to test wine in bottles to find the poisoned one.
+When taken, a single drop of poison kills a person in 24 hours (drops won't kill faster, the same time).
+What is the fastest way to find the poisoned bottle?
+
+1. The remaining prisoners each take an evenly divided portion of the remaining bottles of wine.
+2. The prisoners each take 1 drop from their set of wine bottles.
+3. After 24 hours, one of this prisoners will die, and the poisened wine will surely be in 1 of that prisoner's set of bottles that he drank from.
+4. repeat from step 1 until 1 bottle is left.
+5. The remaining bottle is the poisened bottle.
+
+
+     24hrs  ->    24hrs      ->     24hrs     ->     24hrs     = 4 days
+100 bottles ->  12 bottles   ->   2 bottles   ->   1 bottle
+
+91 bottles -> 11 -> bottles -> 

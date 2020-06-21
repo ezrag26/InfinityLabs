@@ -1,0 +1,10 @@
+1. - CPP supports object oriented programming, so includes classes, polymorphism (method overloading, method overriding, operator overrriding).
+    - Templates, which allow for generic programming
+    - namespaces, which encapsulate code and allow to reference variables with the same name in different namespaces without affecting each other.
+    - references, which act as a more conventient pointer
+
+2. 4 principles of OOP
+    1. Polymorphism - the ability of methods to change behavior based on the object at runtime
+    2. Encapsulation - the inclusion of all the resources needed for the object to function
+    3. Abstraction - the hiding of info, revealing only the pieces that are needed for the user to use the object - not how, but what.
+    4. Inheritance - ability of classes to have an is-a relationship with another classes, receiving certain members automatically. This allows for code reuse. This also allows classes to extend behavior of another class and create polymorphic behavior.

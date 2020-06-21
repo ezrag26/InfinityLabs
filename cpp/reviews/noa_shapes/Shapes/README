@@ -1,0 +1,14 @@
+
+Please install a package called 'freeglut3', which is a graphic library.
+Maybe you already have it on your PC from previous groups' work.
+
+- A wrapper-library that provides a simple API above freeglut3.
+  We will use this API on the Shapes execize.
+  Files: 
+  * include/glut_utils.h
+  * lib/libglut_utils.so
+- A short demo's source file src/demo.c, written in C language.
+
+Go to src
+Activate the line below, 
+gcc demo.c -I ../include -Wl,-rpath=. ../lib/libglut_utils.so

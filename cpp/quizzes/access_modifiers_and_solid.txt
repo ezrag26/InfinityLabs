@@ -1,0 +1,9 @@
+1. You cannot instantiate it, unless there is a public method that creates an object of the class, or by using a friend class
+2. You can only use Derived class objects. A Base class object will not be able to be destroyed.
+3. When you have a method in a class that is virtual
+4. A constructor that does not allow implicit conversions from one type to the class type.
+5. Single responsibility: every class should have only one job
+    Open-closed principle: The class should be open for extention, but closed to changes.
+    Liskov's Substitution principle: A derived class object should be able to be switched out with a base class object with no problems
+    Interface segregation: Interfaces should be broken up into smaller, more concise parts.
+    Dependency inversion: Code should depend on abstractions rather than concrete types, so that it can be easily swapped

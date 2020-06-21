@@ -1,0 +1,7 @@
+package il.co.ilrd.vendingmachine;
+
+public class InvalidQuantityException extends Exception {
+	public InvalidQuantityException(String message) {
+		super(message);
+	}
+}

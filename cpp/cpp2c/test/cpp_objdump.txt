@@ -1,0 +1,563 @@
+
+./cpp2c/test/cpp2cCPP:	file format Mach-O 64-bit x86-64
+
+SYMBOL TABLE:
+0000000100000d60 lw    F __TEXT,__text	__ZN7MinibusC1Ev
+0000000100000dd0 lw    F __TEXT,__text	__ZN7Minibus7displayEv
+0000000100000e60 lw    F __TEXT,__text	__ZN15PublicTransportC1ERKS_
+0000000100000e90 lw    F __TEXT,__text	__ZN7MinibusD1Ev
+0000000100000eb0 lw    F __TEXT,__text	___clang_call_terminate
+0000000100000ed0 lw    F __TEXT,__text	__ZN4Taxi7displayEv
+0000000100001d60 lw    F __TEXT,__text	__ZN15PublicTransport7displayEv
+0000000100001dc0 lw    F __TEXT,__text	__ZN15PublicTransportD1Ev
+0000000100001de0 lw    F __TEXT,__text	__ZN4TaxiC1Ev
+0000000100001e00 lw    F __TEXT,__text	__ZN15PublicTransportC1Ev
+0000000100001e20 lw    F __TEXT,__text	__ZN4TaxiD1Ev
+0000000100001e80 lw    F __TEXT,__text	__ZN11SpecialTaxiC1Ev
+0000000100001ea0 lw    F __TEXT,__text	__ZN4TaxiC1ERKS_
+0000000100001ed0 lw    F __TEXT,__text	__ZN12PublicConvoyC1Ev
+0000000100001ef0 lw    F __TEXT,__text	__ZN12PublicConvoyC1ERKS_
+0000000100001f20 lw    F __TEXT,__text	__ZN11SpecialTaxiD1Ev
+0000000100001f40 lw    F __TEXT,__text	__ZN7MinibusC2Ev
+0000000100001fd0 lw    F __TEXT,__text	__ZN15PublicTransportC2Ev
+0000000100002050 lw    F __TEXT,__text	__ZN15PublicTransportD2Ev
+00000001000020c0 lw    F __TEXT,__text	__ZN7MinibusD0Ev
+0000000100002110 lw    F __TEXT,__text	__ZN7Minibus4washEi
+0000000100002190 lw    F __TEXT,__text	__ZN15PublicTransportD0Ev
+0000000100002200 lw    F __TEXT,__text	__ZN15PublicTransportC2ERKS_
+0000000100002280 lw    F __TEXT,__text	__ZN7MinibusD2Ev
+0000000100002310 lw    F __TEXT,__text	__ZN4TaxiC2Ev
+0000000100002390 lw    F __TEXT,__text	__ZN4TaxiD0Ev
+00000001000023e0 lw    F __TEXT,__text	__ZN4TaxiD2Ev
+0000000100002470 lw    F __TEXT,__text	__ZN11SpecialTaxiC2Ev
+00000001000024f0 lw    F __TEXT,__text	__ZN11SpecialTaxiD0Ev
+0000000100002540 lw    F __TEXT,__text	__ZN11SpecialTaxi7displayEv
+00000001000025a0 lw    F __TEXT,__text	__ZN4TaxiC2ERKS_
+0000000100002640 lw    F __TEXT,__text	__ZN12PublicConvoyC2Ev
+00000001000027a0 lw    F __TEXT,__text	__ZN12PublicConvoyD1Ev
+00000001000027c0 lw    F __TEXT,__text	__ZN12PublicConvoyD0Ev
+0000000100002810 lw    F __TEXT,__text	__ZN12PublicConvoy7displayEv
+0000000100002870 lw    F __TEXT,__text	__ZN12PublicConvoyD2Ev
+00000001000029b0 lw    F __TEXT,__text	__ZN12PublicConvoyC2ERKS_
+0000000100002b60 lw    F __TEXT,__text	__ZN11SpecialTaxiD2Ev
+0000000100002e20 l     F __TEXT,__text	__ZNKSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentrycvbEv
+0000000100002e40 lw    F __TEXT,__text	__ZNSt3__116__pad_and_outputIcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+0000000100003120 l     F __TEXT,__text	__ZNSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEEC1ERNS_13basic_ostreamIcS2_EE
+0000000100003150 l     F __TEXT,__text	__ZNKSt3__18ios_base5flagsEv
+0000000100003170 l     F __TEXT,__text	__ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE4fillEv
+00000001000031e0 l     F __TEXT,__text	__ZNKSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEE6failedEv
+0000000100003200 l     F __TEXT,__text	__ZNSt3__19basic_iosIcNS_11char_traitsIcEEE8setstateEj
+0000000100003230 l     F __TEXT,__text	__ZNSt3__1L15__get_nullptr_tEv
+0000000100003260 l     F __TEXT,__text	__ZNKSt3__19nullptr_tcvPT_INS_15basic_streambufIcNS_11char_traitsIcEEEEEEv
+0000000100003270 l     F __TEXT,__text	__ZNKSt3__18ios_base5widthEv
+0000000100003290 l     F __TEXT,__text	__ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5sputnEPKcl
+00000001000032d0 l     F __TEXT,__text	__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1Emc
+0000000100003300 l     F __TEXT,__text	__ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4dataEv
+0000000100003330 l     F __TEXT,__text	__ZNSt3__18ios_base5widthEl
+0000000100003360 l     F __TEXT,__text	__ZNSt3__19nullptr_tC1EMNS0_5__natEi
+0000000100003390 l     F __TEXT,__text	__ZNSt3__19nullptr_tC2EMNS0_5__natEi
+00000001000033b0 l     F __TEXT,__text	__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2Emc
+00000001000033f0 l     F __TEXT,__text	__ZNSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EC1Ev
+0000000100003410 l     F __TEXT,__text	__ZNSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EC2Ev
+0000000100003450 l     F __TEXT,__text	__ZNSt3__122__compressed_pair_elemINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repELi0ELb0EEC2Ev
+0000000100003480 l     F __TEXT,__text	__ZNSt3__122__compressed_pair_elemINS_9allocatorIcEELi1ELb1EEC2Ev
+00000001000034a0 l     F __TEXT,__text	__ZNSt3__19allocatorIcEC2Ev
+00000001000034b0 l     F __TEXT,__text	__ZNSt3__1L16__to_raw_pointerIKcEEPT_S3_
+00000001000034c0 l     F __TEXT,__text	__ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE13__get_pointerEv
+0000000100003510 l     F __TEXT,__text	__ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9__is_longEv
+0000000100003550 l     F __TEXT,__text	__ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE18__get_long_pointerEv
+0000000100003570 l     F __TEXT,__text	__ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE19__get_short_pointerEv
+00000001000035a0 l     F __TEXT,__text	__ZNKSt3__117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_E5firstEv
+00000001000035c0 l     F __TEXT,__text	__ZNKSt3__122__compressed_pair_elemINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repELi0ELb0EE5__getEv
+00000001000035d0 l     F __TEXT,__text	__ZNSt3__114pointer_traitsIPKcE10pointer_toERS1_
+00000001000035f0 l     F __TEXT,__text	__ZNSt3__1L9addressofIKcEEPT_RS2_
+0000000100003600 l     F __TEXT,__text	__ZNSt3__119ostreambuf_iteratorIcNS_11char_traitsIcEEEC2ERNS_13basic_ostreamIcS2_EE
+0000000100003660 l     F __TEXT,__text	__ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5rdbufEv
+0000000100003680 l     F __TEXT,__text	__ZNKSt3__18ios_base5rdbufEv
+00000001000036d0 l     F __TEXT,__text	__ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenEc
+0000000100003770 l     F __TEXT,__text	__ZNSt3__1L9use_facetINS_5ctypeIcEEEERKT_RKNS_6localeE
+00000001000037a0 l     F __TEXT,__text	__ZNKSt3__15ctypeIcE5widenEc
+00000001000037d0 l     F __TEXT,__text	__ZNSt3__18ios_base8setstateEj
+000000010000396c l     O __TEXT,__gcc_except_tab	GCC_except_table4
+0000000100003990 l     O __TEXT,__gcc_except_tab	GCC_except_table13
+0000000100003a98 l     O __TEXT,__gcc_except_tab	GCC_except_table25
+0000000100003ab4 l     O __TEXT,__gcc_except_tab	GCC_except_table28
+0000000100003ac0 l     O __TEXT,__gcc_except_tab	GCC_except_table30
+0000000100003acc l     O __TEXT,__gcc_except_tab	GCC_except_table33
+0000000100003ae8 l     O __TEXT,__gcc_except_tab	GCC_except_table34
+0000000100003b04 l     O __TEXT,__gcc_except_tab	GCC_except_table35
+0000000100003b10 l     O __TEXT,__gcc_except_tab	GCC_except_table36
+0000000100003b2c l     O __TEXT,__gcc_except_tab	GCC_except_table37
+0000000100003b48 l     O __TEXT,__gcc_except_tab	GCC_except_table38
+0000000100003b54 l     O __TEXT,__gcc_except_tab	GCC_except_table40
+0000000100003b70 l     O __TEXT,__gcc_except_tab	GCC_except_table41
+0000000100003bac l     O __TEXT,__gcc_except_tab	GCC_except_table43
+0000000100003bb8 l     O __TEXT,__gcc_except_tab	GCC_except_table45
+0000000100003be4 l     O __TEXT,__gcc_except_tab	GCC_except_table46
+0000000100003c20 l     O __TEXT,__gcc_except_tab	GCC_except_table47
+0000000100003c3c l     O __TEXT,__gcc_except_tab	GCC_except_table48
+0000000100003c7c l     O __TEXT,__gcc_except_tab	GCC_except_table51
+0000000100003ca0 l     O __TEXT,__gcc_except_tab	GCC_except_table81
+0000000100003cb4 l     O __TEXT,__gcc_except_tab	GCC_except_table86
+0000000100004050 lw    O __DATA_CONST,__const	__ZTV7Minibus
+00000001000040a8 lw    O __DATA_CONST,__const	__ZTV15PublicTransport
+00000001000040d0 lw    O __DATA_CONST,__const	__ZTV4Taxi
+0000000100004110 lw    O __DATA_CONST,__const	__ZTV11SpecialTaxi
+0000000100004150 lw    O __DATA_CONST,__const	__ZTV12PublicConvoy
+00000001000050f0 l     O __DATA,__data	__dyld_private
+0000000000000000 l    d  *UND*	/Users/ezragordon/Infinity_Labs/ezra-gordon/cpp/cpp2c/src/
+0000000000000000 l    d  *UND*	cpp2c.cpp
+000000005eb42490 l    d  __TEXT,__stub_helper	__stub_helper
+0000000100000c00 l    d  __TEXT,__text	__text
+0000000100000c00 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100000c20 l    d  __TEXT,__text	__text
+0000000100000c20 l    d  __TEXT,__text	__text
+0000000000000010 l    d  *UND*	
+0000000000000010 l    d  __TEXT,__text	__text
+0000000100000c30 l    d  __TEXT,__text	__text
+0000000100000c30 l    d  __TEXT,__text	__text
+0000000000000050 l    d  *UND*	
+0000000000000050 l    d  __TEXT,__text	__text
+0000000100000c80 l    d  __TEXT,__text	__text
+0000000100000c80 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100000cb0 l    d  __TEXT,__text	__text
+0000000100000cb0 l    d  __TEXT,__text	__text
+00000000000000b0 l    d  *UND*	
+00000000000000b0 l    d  __TEXT,__text	__text
+0000000100000d60 l    d  __TEXT,__text	__text
+0000000100000d60 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100000d80 l    d  __TEXT,__text	__text
+0000000100000d80 l    d  __TEXT,__text	__text
+0000000000000050 l    d  *UND*	
+0000000000000050 l    d  __TEXT,__text	__text
+0000000100000dd0 l    d  __TEXT,__text	__text
+0000000100000dd0 l    d  __TEXT,__text	__text
+0000000000000090 l    d  *UND*	
+0000000000000090 l    d  __TEXT,__text	__text
+0000000100000e60 l    d  __TEXT,__text	__text
+0000000100000e60 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100000e90 l    d  __TEXT,__text	__text
+0000000100000e90 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100000eb0 l    d  __TEXT,__text	__text
+0000000100000eb0 l    d  __TEXT,__text	__text
+0000000000000010 l    d  *UND*	
+0000000000000010 l    d  __TEXT,__text	__text
+0000000100000ec0 l    d  __TEXT,__text	__text
+0000000100000ec0 l    d  __TEXT,__text	__text
+0000000000000010 l    d  *UND*	
+0000000000000010 l    d  __TEXT,__text	__text
+0000000100000ed0 l    d  __TEXT,__text	__text
+0000000100000ed0 l    d  __TEXT,__text	__text
+0000000000000060 l    d  *UND*	
+0000000000000060 l    d  __TEXT,__text	__text
+0000000100000f30 l    d  __TEXT,__text	__text
+0000000100000f30 l    d  __TEXT,__text	__text
+0000000000000e30 l    d  *UND*	
+0000000000000e30 l    d  __TEXT,__text	__text
+0000000100001d60 l    d  __TEXT,__text	__text
+0000000100001d60 l    d  __TEXT,__text	__text
+0000000000000060 l    d  *UND*	
+0000000000000060 l    d  __TEXT,__text	__text
+0000000100001dc0 l    d  __TEXT,__text	__text
+0000000100001dc0 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100001de0 l    d  __TEXT,__text	__text
+0000000100001de0 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100001e00 l    d  __TEXT,__text	__text
+0000000100001e00 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100001e20 l    d  __TEXT,__text	__text
+0000000100001e20 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100001e40 l    d  __TEXT,__text	__text
+0000000100001e40 l    d  __TEXT,__text	__text
+0000000000000040 l    d  *UND*	
+0000000000000040 l    d  __TEXT,__text	__text
+0000000100001e80 l    d  __TEXT,__text	__text
+0000000100001e80 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100001ea0 l    d  __TEXT,__text	__text
+0000000100001ea0 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100001ed0 l    d  __TEXT,__text	__text
+0000000100001ed0 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100001ef0 l    d  __TEXT,__text	__text
+0000000100001ef0 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100001f20 l    d  __TEXT,__text	__text
+0000000100001f20 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100001f40 l    d  __TEXT,__text	__text
+0000000100001f40 l    d  __TEXT,__text	__text
+0000000000000090 l    d  *UND*	
+0000000000000090 l    d  __TEXT,__text	__text
+0000000100001fd0 l    d  __TEXT,__text	__text
+0000000100001fd0 l    d  __TEXT,__text	__text
+0000000000000080 l    d  *UND*	
+0000000000000080 l    d  __TEXT,__text	__text
+0000000100002050 l    d  __TEXT,__text	__text
+0000000100002050 l    d  __TEXT,__text	__text
+0000000000000070 l    d  *UND*	
+0000000000000070 l    d  __TEXT,__text	__text
+00000001000020c0 l    d  __TEXT,__text	__text
+00000001000020c0 l    d  __TEXT,__text	__text
+0000000000000050 l    d  *UND*	
+0000000000000050 l    d  __TEXT,__text	__text
+0000000100002110 l    d  __TEXT,__text	__text
+0000000100002110 l    d  __TEXT,__text	__text
+0000000000000080 l    d  *UND*	
+0000000000000080 l    d  __TEXT,__text	__text
+0000000100002190 l    d  __TEXT,__text	__text
+0000000100002190 l    d  __TEXT,__text	__text
+0000000000000050 l    d  *UND*	
+0000000000000050 l    d  __TEXT,__text	__text
+00000001000021e0 l    d  __TEXT,__text	__text
+00000001000021e0 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100002200 l    d  __TEXT,__text	__text
+0000000100002200 l    d  __TEXT,__text	__text
+0000000000000080 l    d  *UND*	
+0000000000000080 l    d  __TEXT,__text	__text
+0000000100002280 l    d  __TEXT,__text	__text
+0000000100002280 l    d  __TEXT,__text	__text
+0000000000000090 l    d  *UND*	
+0000000000000090 l    d  __TEXT,__text	__text
+0000000100002310 l    d  __TEXT,__text	__text
+0000000100002310 l    d  __TEXT,__text	__text
+0000000000000080 l    d  *UND*	
+0000000000000080 l    d  __TEXT,__text	__text
+0000000100002390 l    d  __TEXT,__text	__text
+0000000100002390 l    d  __TEXT,__text	__text
+0000000000000050 l    d  *UND*	
+0000000000000050 l    d  __TEXT,__text	__text
+00000001000023e0 l    d  __TEXT,__text	__text
+00000001000023e0 l    d  __TEXT,__text	__text
+0000000000000090 l    d  *UND*	
+0000000000000090 l    d  __TEXT,__text	__text
+0000000100002470 l    d  __TEXT,__text	__text
+0000000100002470 l    d  __TEXT,__text	__text
+0000000000000080 l    d  *UND*	
+0000000000000080 l    d  __TEXT,__text	__text
+00000001000024f0 l    d  __TEXT,__text	__text
+00000001000024f0 l    d  __TEXT,__text	__text
+0000000000000050 l    d  *UND*	
+0000000000000050 l    d  __TEXT,__text	__text
+0000000100002540 l    d  __TEXT,__text	__text
+0000000100002540 l    d  __TEXT,__text	__text
+0000000000000060 l    d  *UND*	
+0000000000000060 l    d  __TEXT,__text	__text
+00000001000025a0 l    d  __TEXT,__text	__text
+00000001000025a0 l    d  __TEXT,__text	__text
+00000000000000a0 l    d  *UND*	
+00000000000000a0 l    d  __TEXT,__text	__text
+0000000100002640 l    d  __TEXT,__text	__text
+0000000100002640 l    d  __TEXT,__text	__text
+0000000000000160 l    d  *UND*	
+0000000000000160 l    d  __TEXT,__text	__text
+00000001000027a0 l    d  __TEXT,__text	__text
+00000001000027a0 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+00000001000027c0 l    d  __TEXT,__text	__text
+00000001000027c0 l    d  __TEXT,__text	__text
+0000000000000050 l    d  *UND*	
+0000000000000050 l    d  __TEXT,__text	__text
+0000000100002810 l    d  __TEXT,__text	__text
+0000000100002810 l    d  __TEXT,__text	__text
+0000000000000060 l    d  *UND*	
+0000000000000060 l    d  __TEXT,__text	__text
+0000000100002870 l    d  __TEXT,__text	__text
+0000000100002870 l    d  __TEXT,__text	__text
+0000000000000140 l    d  *UND*	
+0000000000000140 l    d  __TEXT,__text	__text
+00000001000029b0 l    d  __TEXT,__text	__text
+00000001000029b0 l    d  __TEXT,__text	__text
+00000000000001b0 l    d  *UND*	
+00000000000001b0 l    d  __TEXT,__text	__text
+0000000100002b60 l    d  __TEXT,__text	__text
+0000000100002b60 l    d  __TEXT,__text	__text
+0000000000000090 l    d  *UND*	
+0000000000000090 l    d  __TEXT,__text	__text
+0000000100002bf0 l    d  __TEXT,__text	__text
+0000000100002bf0 l    d  __TEXT,__text	__text
+0000000000000210 l    d  *UND*	
+0000000000000210 l    d  __TEXT,__text	__text
+0000000100002e00 l    d  __TEXT,__text	__text
+0000000100002e00 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100002e20 l    d  __TEXT,__text	__text
+0000000100002e20 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100002e40 l    d  __TEXT,__text	__text
+0000000100002e40 l    d  __TEXT,__text	__text
+00000000000002e0 l    d  *UND*	
+00000000000002e0 l    d  __TEXT,__text	__text
+0000000100003120 l    d  __TEXT,__text	__text
+0000000100003120 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100003150 l    d  __TEXT,__text	__text
+0000000100003150 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100003170 l    d  __TEXT,__text	__text
+0000000100003170 l    d  __TEXT,__text	__text
+0000000000000070 l    d  *UND*	
+0000000000000070 l    d  __TEXT,__text	__text
+00000001000031e0 l    d  __TEXT,__text	__text
+00000001000031e0 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100003200 l    d  __TEXT,__text	__text
+0000000100003200 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100003230 l    d  __TEXT,__text	__text
+0000000100003230 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100003260 l    d  __TEXT,__text	__text
+0000000100003260 l    d  __TEXT,__text	__text
+0000000000000010 l    d  *UND*	
+0000000000000010 l    d  __TEXT,__text	__text
+0000000100003270 l    d  __TEXT,__text	__text
+0000000100003270 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100003290 l    d  __TEXT,__text	__text
+0000000100003290 l    d  __TEXT,__text	__text
+0000000000000040 l    d  *UND*	
+0000000000000040 l    d  __TEXT,__text	__text
+00000001000032d0 l    d  __TEXT,__text	__text
+00000001000032d0 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100003300 l    d  __TEXT,__text	__text
+0000000100003300 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100003330 l    d  __TEXT,__text	__text
+0000000100003330 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100003360 l    d  __TEXT,__text	__text
+0000000100003360 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100003390 l    d  __TEXT,__text	__text
+0000000100003390 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+00000001000033b0 l    d  __TEXT,__text	__text
+00000001000033b0 l    d  __TEXT,__text	__text
+0000000000000040 l    d  *UND*	
+0000000000000040 l    d  __TEXT,__text	__text
+00000001000033f0 l    d  __TEXT,__text	__text
+00000001000033f0 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100003410 l    d  __TEXT,__text	__text
+0000000100003410 l    d  __TEXT,__text	__text
+0000000000000040 l    d  *UND*	
+0000000000000040 l    d  __TEXT,__text	__text
+0000000100003450 l    d  __TEXT,__text	__text
+0000000100003450 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+0000000100003480 l    d  __TEXT,__text	__text
+0000000100003480 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+00000001000034a0 l    d  __TEXT,__text	__text
+00000001000034a0 l    d  __TEXT,__text	__text
+0000000000000010 l    d  *UND*	
+0000000000000010 l    d  __TEXT,__text	__text
+00000001000034b0 l    d  __TEXT,__text	__text
+00000001000034b0 l    d  __TEXT,__text	__text
+0000000000000010 l    d  *UND*	
+0000000000000010 l    d  __TEXT,__text	__text
+00000001000034c0 l    d  __TEXT,__text	__text
+00000001000034c0 l    d  __TEXT,__text	__text
+0000000000000050 l    d  *UND*	
+0000000000000050 l    d  __TEXT,__text	__text
+0000000100003510 l    d  __TEXT,__text	__text
+0000000100003510 l    d  __TEXT,__text	__text
+0000000000000040 l    d  *UND*	
+0000000000000040 l    d  __TEXT,__text	__text
+0000000100003550 l    d  __TEXT,__text	__text
+0000000100003550 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100003570 l    d  __TEXT,__text	__text
+0000000100003570 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+00000001000035a0 l    d  __TEXT,__text	__text
+00000001000035a0 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+00000001000035c0 l    d  __TEXT,__text	__text
+00000001000035c0 l    d  __TEXT,__text	__text
+0000000000000010 l    d  *UND*	
+0000000000000010 l    d  __TEXT,__text	__text
+00000001000035d0 l    d  __TEXT,__text	__text
+00000001000035d0 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+00000001000035f0 l    d  __TEXT,__text	__text
+00000001000035f0 l    d  __TEXT,__text	__text
+0000000000000010 l    d  *UND*	
+0000000000000010 l    d  __TEXT,__text	__text
+0000000100003600 l    d  __TEXT,__text	__text
+0000000100003600 l    d  __TEXT,__text	__text
+0000000000000060 l    d  *UND*	
+0000000000000060 l    d  __TEXT,__text	__text
+0000000100003660 l    d  __TEXT,__text	__text
+0000000100003660 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+0000000100003680 l    d  __TEXT,__text	__text
+0000000100003680 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+00000001000036a0 l    d  __TEXT,__text	__text
+00000001000036a0 l    d  __TEXT,__text	__text
+0000000000000020 l    d  *UND*	
+0000000000000020 l    d  __TEXT,__text	__text
+00000001000036c0 l    d  __TEXT,__text	__text
+00000001000036c0 l    d  __TEXT,__text	__text
+0000000000000010 l    d  *UND*	
+0000000000000010 l    d  __TEXT,__text	__text
+00000001000036d0 l    d  __TEXT,__text	__text
+00000001000036d0 l    d  __TEXT,__text	__text
+00000000000000a0 l    d  *UND*	
+00000000000000a0 l    d  __TEXT,__text	__text
+0000000100003770 l    d  __TEXT,__text	__text
+0000000100003770 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+00000001000037a0 l    d  __TEXT,__text	__text
+00000001000037a0 l    d  __TEXT,__text	__text
+0000000000000030 l    d  *UND*	
+0000000000000030 l    d  __TEXT,__text	__text
+00000001000037d0 l    d  __TEXT,__text	__text
+00000001000037d0 l    d  __TEXT,__text	__text
+0000000000000024 l    d  *UND*	
+0000000000000024 l    d  __TEXT,__text	__text
+000000010000396c l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003990 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003a98 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003ab4 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003ac0 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003acc l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003ae8 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003b04 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003b10 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003b2c l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003b48 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003b54 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003b70 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003bac l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003bb8 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003be4 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003c20 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003c3c l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003c7c l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003ca0 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000100003cb4 l    d  __TEXT,__gcc_except_tab	__gcc_except_tab
+0000000000000000 l    d  *UND*	__ZTS7Minibus
+0000000000000000 l    d  *UND*	__ZTS15PublicTransport
+0000000000000000 l    d  *UND*	__ZTS4Taxi
+0000000000000000 l    d  *UND*	__ZTS11SpecialTaxi
+0000000000000000 l    d  *UND*	__ZTS12PublicConvoy
+0000000000000000 l    d  *UND*	__ZTV7Minibus
+0000000000000000 l    d  *UND*	__ZTI15PublicTransport
+0000000000000000 l    d  *UND*	__ZTI7Minibus
+0000000000000000 l    d  *UND*	__ZTV15PublicTransport
+0000000000000000 l    d  *UND*	__ZTV4Taxi
+0000000000000000 l    d  *UND*	__ZTI4Taxi
+0000000000000000 l    d  *UND*	__ZTV11SpecialTaxi
+0000000000000000 l    d  *UND*	__ZTI11SpecialTaxi
+0000000000000000 l    d  *UND*	__ZTV12PublicConvoy
+0000000000000000 l    d  *UND*	__ZTI12PublicConvoy
+0000000000000000 l    d  *UND*	__ZN15PublicTransport7s_countE
+0000000000000000 l    d  __TEXT,__text	__text
+0000000100000c00 g     F __TEXT,__text	__Z10print_infoR15PublicTransport
+0000000100000c80 g     F __TEXT,__text	__Z10print_infoR7Minibus
+0000000100000cb0 g     F __TEXT,__text	__Z10print_infoi
+0000000100000c20 g     F __TEXT,__text	__Z10print_infov
+0000000100000ec0 g     F __TEXT,__text	__Z12taxi_display4Taxi
+0000000100001e40 gw    F __TEXT,__text	__Z8max_funcIiET_RKS0_S2_
+0000000100000c30 gw    F __TEXT,__text	__ZN15PublicTransport11print_countEv
+00000001000021e0 gw    F __TEXT,__text	__ZN15PublicTransport6get_IDEv
+00000001000050f8 g     O __DATA,__common	__ZN15PublicTransport7s_countE
+00000001000036a0 gw    F __TEXT,__text	__ZNSt3__111char_traitsIcE11eq_int_typeEii
+00000001000036c0 gw    F __TEXT,__text	__ZNSt3__111char_traitsIcE3eofEv
+0000000100002e00 gw    F __TEXT,__text	__ZNSt3__111char_traitsIcE6lengthEPKc
+0000000100002bf0 gw    F __TEXT,__text	__ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+0000000100000d80 gw    F __TEXT,__text	__ZNSt3__1lsINS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
+0000000100004138 gw    O __DATA_CONST,__const	__ZTI11SpecialTaxi
+0000000100004178 gw    O __DATA_CONST,__const	__ZTI12PublicConvoy
+0000000100004080 gw    O __DATA_CONST,__const	__ZTI15PublicTransport
+00000001000040f8 gw    O __DATA_CONST,__const	__ZTI4Taxi
+0000000100004090 gw    O __DATA_CONST,__const	__ZTI7Minibus
+0000000100003e59 gw    O __TEXT,__const	__ZTS11SpecialTaxi
+0000000100003e67 gw    O __TEXT,__const	__ZTS12PublicConvoy
+0000000100003e41 gw    O __TEXT,__const	__ZTS15PublicTransport
+0000000100003e53 gw    O __TEXT,__const	__ZTS4Taxi
+0000000100003e38 gw    O __TEXT,__const	__ZTS7Minibus
+0000000100000000 g     F __TEXT,__text	__mh_execute_header
+0000000100000f30 g     F __TEXT,__text	_main
+0000000000000000         *UND*	__Unwind_Resume
+0000000000000000         *UND*	__ZNKSt3__16locale9use_facetERNS0_2idE
+0000000000000000         *UND*	__ZNKSt3__18ios_base6getlocEv
+0000000000000000         *UND*	__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEmc
+0000000000000000         *UND*	__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+0000000000000000         *UND*	__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_
+0000000000000000         *UND*	__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev
+0000000000000000         *UND*	__ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEi
+0000000000000000         *UND*	__ZNSt3__14coutE
+0000000000000000         *UND*	__ZNSt3__15ctypeIcE2idE
+0000000000000000         *UND*	__ZNSt3__16localeD1Ev
+0000000000000000         *UND*	__ZNSt3__18ios_base33__set_badbit_and_consider_rethrowEv
+0000000000000000         *UND*	__ZNSt3__18ios_base5clearEj
+0000000000000000         *UND*	__ZSt9terminatev
+0000000000000000         *UND*	__ZTVN10__cxxabiv117__class_type_infoE
+0000000000000000         *UND*	__ZTVN10__cxxabiv120__si_class_type_infoE
+0000000000000000  w      *UND*	__ZdaPv
+0000000000000000  w      *UND*	__ZdlPv
+0000000000000000  w      *UND*	__Znam
+0000000000000000  w      *UND*	__Znwm
+0000000000000000         *UND*	___cxa_begin_catch
+0000000000000000         *UND*	___cxa_call_unexpected
+0000000000000000         *UND*	___cxa_end_catch
+0000000000000000         *UND*	___gxx_personality_v0
+0000000000000000         *UND*	___stack_chk_fail
+0000000000000000         *UND*	___stack_chk_guard
+0000000000000000         *UND*	_memset
+0000000000000000         *UND*	_strlen
+0000000000000000         *UND*	dyld_stub_binder

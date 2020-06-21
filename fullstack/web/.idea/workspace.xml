@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d21c2c7-f995-43a4-9dcb-067048ead556" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../cpp/ws1/src/q36.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cpp/ws1/src/q36.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ZzYWTpvP13ZkpJT7VkHMxFll02" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/ToDoList">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser url="http://localhost:63342/web/ToDoList/index.html" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d21c2c7-f995-43a4-9dcb-067048ead556" name="Default Changelist" comment="" />
+      <created>1585843420395</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585843420395</updated>
+      <workItem from="1585843423480" duration="14898000" />
+      <workItem from="1585996869138" duration="47124000" />
+      <workItem from="1586543566073" duration="979000" />
+      <workItem from="1586625075623" duration="1890000" />
+      <workItem from="1588520415846" duration="128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586122811750">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="184" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.833@0.23.1440.833" timestamp="1586122811750" />
+    <state width="1419" height="216" key="GridCell.Tab.0.bottom" timestamp="1586195430153">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1419" height="216" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1586195430153" />
+    <state width="1419" height="216" key="GridCell.Tab.0.center" timestamp="1586195430151">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1419" height="216" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1586195430151" />
+    <state width="1419" height="216" key="GridCell.Tab.0.left" timestamp="1586195430150">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1419" height="216" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1586195430150" />
+    <state width="1419" height="216" key="GridCell.Tab.0.right" timestamp="1586195430152">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="1419" height="216" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1586195430152" />
+  </component>
+</project>
